@@ -5,7 +5,7 @@ import Img from 'gatsby-image';
 
 import { Section, Container } from '@components/global';
 
-const About = () => (
+const Project = () => (
   <StaticQuery
     query={graphql`
       query {
@@ -44,7 +44,7 @@ const About = () => (
       }
     `}
     render={data => (
-      <Section id="about">
+      <Section id="project">
         <Container>
           <Grid>
             <div>
@@ -66,6 +66,16 @@ const About = () => (
             </Art>
             <div>
               <h2>Nothing new to learn here</h2>
+              <p>
+                Enjoy the power of the latest web technologies – React.js ,
+                Webpack , modern JavaScript and CSS and more — all set up and
+                waiting for you to start building.
+              </p>
+            </div>
+          </Grid>
+          <Grid inverse>
+            <div>
+              <h2>Nothing new to learn here testing</h2>
               <p>
                 Enjoy the power of the latest web technologies – React.js ,
                 Webpack , modern JavaScript and CSS and more — all set up and
@@ -113,6 +123,7 @@ const Grid = styled.div`
   h2 {
     margin-bottom: 16px;
   }
+  
 
   @media (max-width: ${props => props.theme.screen.md}) {
     grid-template-columns: 1fr;
@@ -139,4 +150,4 @@ const Art = styled.figure`
   width: 100%;
 `;
 
-export default About;
+export default Project;
