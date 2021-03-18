@@ -57,6 +57,20 @@ const Onderzoek = () => (
               <Img fluid={data.art_fast.childImageSharp.fluid} />
             </Art>
           </Grid>
+          <Grid>
+            <div className="list">
+              <h3>
+                Deskresearch
+              </h3>
+              <p className="undertitle">Hoi dit is een test</p>
+              <ul>
+                <li>Veel bezoekers hebben last van de aanwezigheid van hangjongeren in de avond en weekenden.</li>
+                <li>Bezoekers ervaren drukke kruispunten en gevaren om bij de boulevard uit te komen.</li>
+                <li>Bezoekers worden slecht geïnformeerd over de beschikbare parkeerplekken in de omgeving van de boulevard.</li>
+                <li>Lokale buurtbewoners ergeren zich aan de toenemende aantallen toeristen.</li>
+              </ul>
+            </div>
+          </Grid>
         </Container>
       </Section>
     )}
@@ -71,6 +85,20 @@ const Grid = styled.div`
   align-items: center;
   justify-items: center;
   margin: 24px 0;
+
+  .undertitle {
+    font-size: 1.25em
+  }
+  
+  .list {
+    text-align: left;
+    ul {
+      list-style-type: none;
+      li {
+        line-height: 1.5em;
+      }
+    }
+  }
 
   ${props =>
     props.inverse &&
