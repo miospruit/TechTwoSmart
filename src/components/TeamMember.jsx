@@ -11,6 +11,7 @@ const TeamMember = ({
   imageAlt,
   header,
   subheader,
+  text,
   social: { twitter, facebook, linkedin, github, medium },
 }) => {
   const twitterPart = twitter ? <SocialIcons.Twitter userName={twitter} /> : null;
@@ -24,10 +25,11 @@ const TeamMember = ({
       <Image
         className="mx-auto circle rounded-circle"
         fileName={imageFileName}
-        alt={imageAlt || header || subheader}
+        alt={imageAlt || header || subheader || text}
       />
       <h4>{header}</h4>
       <p className="text-muted">{subheader}</p>
+      <p className="text">{text}</p>
       <div>
         {twitterPart}
         {facebookPart}
@@ -44,6 +46,7 @@ TeamMember.propTypes = {
   imageAlt: PropTypes.string,
   header: PropTypes.string,
   subheader: PropTypes.string,
+  text: PropTypes.string,
   social: PropTypes.shape({
     twitter: PropTypes.string,
     facebook: PropTypes.string,
@@ -57,6 +60,7 @@ TeamMember.defaultProps = {
   imageAlt: null,
   header: "",
   subheader: "",
+  text: "",
   social: {
     twitter: null,
     facebook: null,

@@ -16,12 +16,10 @@ teamMember: [
   },
   {
     imageFileName: "team/2.jpg",
-    header: Steffen",
-    subheader: "Lead Marketer",
+    header: Steffen,
+    subheader: "Binnen het team ben ik verantwoordelijk voor het verzamelen van inzichten door middel van research en richt ik me op de belangen van de gebruiker. Wat zijn hun behoeftes en waarden?",
+    text: "ik ben een designer",
     social: {
-      twitter: "#",
-      facebook: "#",
-      medium: "#"
     }
   },
   {
