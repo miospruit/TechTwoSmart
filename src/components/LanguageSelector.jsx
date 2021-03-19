@@ -39,10 +39,10 @@ LanguageSelector.propTypes = {
 };
 
 LanguageSelector.defaultProps = {
-  defaultLang: "en",
-  langKey: "en",
+  defaultLang: "nl",
+  langKey: "nl",
   langTextMap: {
-    en: "English",
+    nl: "Nederlands",
   },
 };
 
