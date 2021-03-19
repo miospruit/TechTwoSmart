@@ -2,11 +2,11 @@ import React from 'react';
 import Helmet from 'react-helmet';
 
 const SEO_DATA = {
-  description: 'An absurd gatsby starter',
-  title: 'Absurd',
+  description: 'MediaLab SmartCity Lab Scheveningen',
+  title: 'TechTwoSmart',
   url: '',
   author: 'ajayns',
-  keywords: ['gatsby', 'site', 'absurd'],
+  keywords: ['Tech', 'Smart', 'Scheveningen', 'strand', 'future', 'IOT', 'internet', 'of', 'things'],
   img: '',
   twitterId: '@ajayns_',
   facebookId: '',
