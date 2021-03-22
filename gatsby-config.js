@@ -1,64 +1,89 @@
-const path = require('path');
+const path = require("path");
+const { title, keywords, description, author, defaultLang, trackingId } = require("./config/site");
 
 module.exports = {
+  siteMetadata: {
+    title,
+    keywords,
+    description,
+    author,
+  },
   plugins: [
-    `gatsby-plugin-react-helmet`,
     {
-      resolve: `gatsby-plugin-svgr`,
+      resolve: "gatsby-plugin-google-analytics",
       options: {
-        svgoConfig: {
-          plugins: {
-            removeViewBox: false,
+        trackingId,
+      },
+    },
+    {
+      resolve: "gatsby-plugin-manifest",
+      options: {
+        name: title,
+        short_name: "Agency",
+        start_url: "/",
+        background_color: "#ffffff",
+        theme_color: "#fed136",
+        display: "minimal-ui",
+        icon: "content/assets/gatsby-icon.png",
+      },
+    },
+    "gatsby-transformer-remark",
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "markdown",
+        path: `${__dirname}/content`,
+      },
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "images",
+        path: `${__dirname}/content/assets/images`,
+      },
+    },
+    "gatsby-plugin-eslint",
+    "gatsby-plugin-react-helmet",
+    "gatsby-transformer-sharp",
+    "gatsby-plugin-sharp",
+    "gatsby-plugin-offline",
+    {
+      resolve: "gatsby-plugin-sass",
+      options: {
+        data: `@import "core.scss";`,
+        includePaths: [path.resolve(__dirname, "src/style")],
+      },
+    },
+    {
+      resolve: "gatsby-omni-font-loader",
+      options: {
+        preconnect: ["https://fonts.gstatic.com"],
+        web: [
+          {
+            name: "Droid Sans",
+            file: "https://fonts.googleapis.com/css2?family=Droid+Sans&display=swap",
           },
-        },
-      },
-    },
-    `gatsby-plugin-styled-components`,
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `team`,
-        path: `${__dirname}/src/images/team`,
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `art`,
-        path: `${__dirname}/src/images/art`,
-      },
-    },
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
-    {
-      resolve: `gatsby-plugin-manifest`,
-      options: {
-        name: `Absurd`,
-        short_name: `absurd`,
-        start_url: `/`,
-        background_color: `#8bd8ed`,
-        theme_color: `#8bd8ed`,
-        display: `minimal-ui`,
-        icon: `static/favicon.svg`,
+          {
+            name: "Montserrat",
+            file: "https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap",
+          },
+          {
+            name: "Kaushan Script",
+            file: "https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap",
+          },
+          {
+            name: "Roboto Slab",
+            file: "https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap",
+          },
+        ],
       },
     },
     {
-      resolve: `gatsby-plugin-google-fonts`,
+      resolve: "gatsby-plugin-i18n",
       options: {
-        fonts: [`average`, `prata\:400,700`],
-      },
-    },
-    {
-      resolve: `gatsby-plugin-alias-imports`,
-      options: {
-        alias: {
-          '@components': path.resolve(__dirname, 'src/components'),
-          '@common': path.resolve(__dirname, 'src/components/common'),
-          '@images': path.resolve(__dirname, 'src/images'),
-          '@sections': path.resolve(__dirname, 'src/components/sections'),
-          '@styles': path.resolve(__dirname, 'src/styles/'),
-          '@static': path.resolve(__dirname, 'static/'),
-        },
+        langKeyDefault: defaultLang,
+        useLangKeyLayout: false,
+        pagesPaths: ["/content/"],
       },
     },
   ],
