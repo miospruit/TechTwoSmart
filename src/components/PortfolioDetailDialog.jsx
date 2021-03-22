@@ -12,6 +12,7 @@ const PortfolioDetailDialog = ({
   header,
   subheader,
   content,
+  extracontent,
   extraInfo,
   ...restProps
 }) => {
@@ -33,7 +34,11 @@ const PortfolioDetailDialog = ({
           fileName={imageFileName}
           alt={imageAlt || header || subheader}
         />
+        {extracontent.map((contents) => {
+          return <p key={contents.key}>{contents}</p>;
+        })}
         <p>{content}</p>
+        {extracontent}
         {extraInfo}
       </Modal.Body>
       <Modal.Footer>
@@ -55,6 +60,7 @@ PortfolioDetailDialog.propTypes = {
   header: PropTypes.string,
   subheader: PropTypes.string,
   content: PropTypes.string,
+  extracontent: PropTypes.array,
   extraInfo: PropTypes.any,
 };
 
@@ -64,7 +70,8 @@ PortfolioDetailDialog.defaultProps = {
   imageAlt: null,
   header: "",
   subheader: "",
-  content: "",
+  content: ["", ""],
+  extracontent: "",
   extraInfo: null,
 };
 

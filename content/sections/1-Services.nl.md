@@ -1,21 +1,21 @@
 ---
-anchor: "Services"
-header: "Services"
-subheader: "Lorem ipsum dolor sit amet consectetur."
+anchor: "Concepten"
+header: "De Concepten"
+subheader: "Onze drie hoofd concepten"
 services: [
   {
     iconName: "ShoppingCartIcon",
-    header: "E-Commerce",
+    header: "Concept 1",
     content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
   },
   {
     iconName: "LaptopIcon",
-    header: "Responsive Design",
+    header: "Concept 2",
     content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
   },
   {
     iconName: "LockIcon",
-    header: "Web Security",
+    header: "concept 3",
     content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
   }
 ]

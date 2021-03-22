@@ -14,6 +14,7 @@ const PortfolioItem = ({
   header,
   subheader,
   content,
+  extracontent,
   imageFileNameDetail,
   imageAltDetail,
   extraInfo,
@@ -60,6 +61,7 @@ const PortfolioItem = ({
         header={header}
         subheader={subheader}
         content={content}
+        extracontent={extracontent}
         extraInfo={extraInfo}
       />
     </>
@@ -72,6 +74,7 @@ PortfolioItem.propTypes = {
   header: PropTypes.string.isRequired,
   subheader: PropTypes.string,
   content: PropTypes.string,
+  extracontent: PropTypes.array,
   imageFileNameDetail: PropTypes.string,
   imageAltDetail: PropTypes.string,
   extraInfo: PropTypes.any,
@@ -81,6 +84,7 @@ PortfolioItem.defaultProps = {
   imageAlt: "",
   subheader: "",
   content: "",
+  extracontent: ["", ""],
   imageFileNameDetail: "",
   imageAltDetail: "",
   extraInfo: null,

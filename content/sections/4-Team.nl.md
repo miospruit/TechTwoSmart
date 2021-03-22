@@ -8,10 +8,9 @@ teamMember: [
     imageFileName: "team/1.jpg",
     header: "Lotte",
     subheader: "Lead Designer",
+    text: "ik ben een designer",
     social: {
-      twitter: "#",
-      facebook: "#",
-      linkedin: "#"
+
     }
   },
   {
@@ -26,20 +25,18 @@ teamMember: [
     imageFileName: "team/3.jpg",
     header: "Dominique",
     subheader: "Lead Developer",
+    text: "ik ben een designer",
     social: {
-      twitter: "#",
-      facebook: "#",
-      medium: "#"
+
     }
   },
   {
     imageFileName: "team/3.jpg",
     header: "Mio",
     subheader: "Lead Developer",
+    text: "ik ben een designer",
     social: {
-      twitter: "#",
-      facebook: "#",
-      medium: "#"
+
     }
   },
 ]

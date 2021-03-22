@@ -1,31 +1,31 @@
 ---
-anchor: "沿革"
-header: "沿革"
-subheader: "あなたは偶然断然その持通りについて事のためにまかり出ですた。"
+anchor: "About"
+header: "Het Proces"
+subheader: "De tijdlijn van ons proces."
 timeline: [
   {
     imageFileName: "about/1.jpg",
-    header: "2009年-2011年",
+    header: "2009-2011",
     subheader: "Our Humble Beginnings",
-    content: "あなたは偶然断然その持通りについて事のためにまかり出ですた。もう元来を説明心はとうとうこのお話しないななどでいて行くたでは滅亡しましでて、再びにはなったうないです。"
+    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
   },
   {
     imageFileName: "about/2.jpg",
-    header: "2011年3月",
+    header: "March 2011",
     subheader: "An Agency is Born",
-    content: "あなたは偶然断然その持通りについて事のためにまかり出ですた。もう元来を説明心はとうとうこのお話しないななどでいて行くたでは滅亡しましでて、再びにはなったうないです。"
+    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
   },
   {
     imageFileName: "about/3.jpg",
-    header: "2012年12月",
+    header: "December 2012",
     subheader: "Transition to Full Service",
-    content: "あなたは偶然断然その持通りについて事のためにまかり出ですた。もう元来を説明心はとうとうこのお話しないななどでいて行くたでは滅亡しましでて、再びにはなったうないです。"
+    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
   },
   {
     imageFileName: "about/4.jpg",
-    header: "2014年7月",
+    header: "July 2014",
     subheader: "Phase Two Expansion",
-    content: "あなたは偶然断然その持通りについて事のためにまかり出ですた。もう元来を説明心はとうとうこのお話しないななどでいて行くたでは滅亡しましでて、再びにはなったうないです。"
+    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
   },
   {
     imageContent: "Be Part\r\nOf Our\r\nStory!"
