@@ -1,5 +1,5 @@
 module.exports = {
-  title: "Gatsyby Startbootstrap Agency",
+  title: "Tech Two Smart",
   keywords: [
     "gatsby",
     "gatsbyjs",
@@ -10,13 +10,12 @@ module.exports = {
     "bootstrap",
     "startbootstrap-agency",
   ],
-  description: "gatsby version of startbootstrap-agency with i18n support.",
+  description: "Medialab 1",
   author: "thundermiracle",
   trackingId: "UA-119418003-5",
   defaultLang: "nl",
   langTextMap: {
     en: "English",
     nl: "Nederlands",
-    ja: "日本語",
   },
 };

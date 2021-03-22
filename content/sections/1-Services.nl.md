@@ -4,19 +4,19 @@ header: "De Concepten"
 subheader: "Onze drie hoofd concepten"
 services: [
   {
-    iconName: "ShoppingCartIcon",
-    header: "Concept 1",
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+    iconName: "PencilIcon",
+    header: "Trash two Cash!",
+    content: "'erzamel je afval en ontvang een presentje!"
   },
   {
-    iconName: "LaptopIcon",
-    header: "Concept 2",
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+    iconName: "PencilIcon",
+    header: "Alle wegen leiden naar....",
+    content: "Overzicht creëren wandelstromingen"
   },
   {
-    iconName: "LockIcon",
-    header: "concept 3",
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+    iconName: "PencilIcon",
+    header: "Control Your Experience",
+    content: "Haal het beste uit je dagje uit en vermijd de drukte!"
   }
 ]
 ---

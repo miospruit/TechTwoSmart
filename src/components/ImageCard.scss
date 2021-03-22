@@ -22,6 +22,7 @@
       line-height: 50px;
       margin-bottom: 25px;
       @include heading-font;
+      @include header-color;
     }
   }
 }
@@ -47,6 +48,7 @@
         line-height: 75px;
         margin-bottom: 50px;
         @include heading-font;
+        @include header-color;
       }
     }
   }

@@ -19,6 +19,9 @@
     Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
+@mixin header-color {
+  text-shadow: 4px 3px 0 #7A7A7A;
+}
 /* Variables */
 // Restated Bootstrap Variables
 $white: #fff !default;
