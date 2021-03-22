@@ -5,7 +5,7 @@ subheader: "MediaLab 1 - Team 2 - Tech Two Smart"
 content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
 teamMember: [
   {
-    imageFileName: "team/1.jpg",
+    imageFileName: "team/lotte.png",
     header: "Lotte",
     subheader: "Lead Designer",
     social: {
@@ -15,7 +15,7 @@ teamMember: [
     }
   },
   {
-    imageFileName: "team/2.jpg",
+    imageFileName: "team/steffen.png",
     header: Steffen",
     subheader: "Lead Marketer",
     social: {
@@ -25,7 +25,7 @@ teamMember: [
     }
   },
   {
-    imageFileName: "team/3.jpg",
+    imageFileName: "team/dominique.png",
     header: "Dominique",
     subheader: "Lead Developer",
     social: {
