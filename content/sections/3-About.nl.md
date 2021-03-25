@@ -1,5 +1,5 @@
 ---
-anchor: "About"
+anchor: "Proces"
 header: "Het Proces"
 subheader: "De tijdlijn van ons proces."
 timeline: [

@@ -6,7 +6,7 @@ services: [
   {
     iconName: "PencilIcon",
     header: "Trash two Cash!",
-    content: "'erzamel je afval en ontvang een presentje!"
+    content: "'Verzamel je afval en ontvang een presentje!"
   },
   {
     iconName: "PencilIcon",

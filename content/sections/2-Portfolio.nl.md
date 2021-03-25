@@ -55,7 +55,7 @@ De pijnpunten die het meest naar voren kwamen:
     subheader: "Deskresearch naar nieuwe technieken",
     content: "Omdat we een innovatief concept willen neerzetten hebben we onderzoek gedaan naar nieuwe en opkomende technieken. Hier hebben we voor deskresearch gekozen omdat er op het internet veel verschillende technieken te vinden zijn, hier konden we op een andere manier eventueel nog verder onderzoek naar doen. We wilde een inzicht in de technieken die nu toegepast kunnen worden maar ook de technieken die in de toekomst toegepast kunnen worden. Door een inzicht te hebben in de technieken konden we een uitgangspunt nemen voor ons concept Inzichten:
 ",
-    extraInfo: ["Lid AR kan gebruikt worden om de omgeving veilig in kaart te brengen zonder de privacy regels te schenden.", "De Maglev windturbine zou een duurzame oplossing kunnen bieden om stroom te genereren voor een installatie afgezonderd van het elektranet.", "Met behulp van Socket.io kunnen we achterhalen hoeveel realtime bezoekers aanwezig zijn op Scheveningen strand."]
+    extraInfo: ["Lidar kan gebruikt worden om de omgeving veilig in kaart te brengen zonder de privacy regels te schenden.", "De Maglev windturbine zou een duurzame oplossing kunnen bieden om stroom te genereren voor een installatie afgezonderd van het elektranet.", "Met behulp van Socket.io kunnen we achterhalen hoeveel realtime bezoekers aanwezig zijn op Scheveningen strand."]
   },
   {
     imageFileName: "portfolio/analyse-thumbnail.jpg",
