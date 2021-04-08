@@ -43,6 +43,7 @@ const Portfolio = ({ className, frontmatter }) => {
       </Row>
       <h2>Prototype Video</h2>
       <iframe width="1237" height="696" src="https://www.youtube.com/embed/PD1S8FNIbmw" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen/>
+      <iframe title="screen" width="1237" height="696" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FMPvtDrpcWl8QliSZBWcvOo%2FLow-fid-prototype-Lidar%3Fnode-id%3D0%253A147%26viewport%3D85%252C-761%252C0.3748936653137207%26scaling%3Dscale-down%26page-id%3D0%253A1" allowFullScreen/>
     </PageSection>
   );
 };
