@@ -72,6 +72,24 @@ timeline: [
   {
     imageFileName: "about/blank.jpg",
     header: "2021",
+    subheader: "Low Fid",
+    content: "Een low fidelity wireframe om de layout en interactie met onze applicatie te valideren."
+  },
+  {
+    imageFileName: "about/blank.jpg",
+    header: "2021",
+    subheader: "High Fid",
+    content: "Een high fidelity wireframe om het design en interactie te kunnen testen met mensen uit de doelgroep."
+  },
+  {
+    imageFileName: "about/blank.jpg",
+    header: "2021",
+    subheader: "Prototype",
+    content: "Het concept realiseren met een echte lidar sensor en web sockets om de data te versturen."
+  },
+  {
+    imageFileName: "about/blank.jpg",
+    header: "2021",
     subheader: "Test fase",
     content: ""
   },

@@ -82,12 +82,12 @@ De pijnpunten die het meest naar voren kwamen:
     extraInfo: ["",""]
   },
   {
-    imageFileName: "portfolio/analyse-thumbnail.jpg",
-    imageFileNameDetail: "portfolio/analyse.jpg",
+    imageFileName: "portfolio/prototype-map-thumbnail.png",
+    imageFileNameDetail: "portfolio/prototype-map.png",
     header: "ProtoType",
     subheader: "A prototype MVP",
     content: "Het Prototype is gemaakt met een Lidar sensor die 2d Data aanleverd. Deze data gebruiken we om te herkennen hoeveel mensen er lopen binnen de range van de Lidar sensor. Vervolgens versturen we deze data naar een website waar er op de kaart wordt aangegeven hoe druk het is in het gebied van de Lidar sensor. Het Prototype maakt gebruik van een verbinding doormiddel van socket.io. Hiermee kunnen we live de data doorsturen naar de front-end react app. Deze React app maakt gebruik van Leaflet om een kaart weer te geven waarom de drukte te zien is.",
-    extraInfo: ["",""]
+    extraInfo: []
   },
   {
     imageFileName: "portfolio/aanbeveling-thumbnail.png",
