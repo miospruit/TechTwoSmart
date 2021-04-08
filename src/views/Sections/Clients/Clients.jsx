@@ -15,13 +15,16 @@ const Clients = ({ className, frontmatter }) => {
 
   return (
     <PageSection className={clsx("py-5", className)} id={anchor}>
-      <Row>
+      <h1>Miro Board</h1>
+      <iframe title="miro" width="80%" height="432" src="https://miro.com/app/live-embed/o9J_lTi1eIM=/?moveToViewport=8397,-6173,66924,32223" frameBorder="0" scrolling="no" allowFullScreen/>
+      {/* <Row>
+        
         {clients.map(({ href, imageFileName }) => (
           <Col md={3} sm={6} className="my-3" key={imageFileName}>
             <Client href={href} imageFileName={imageFileName} />
           </Col>
         ))}
-      </Row>
+      </Row> */}
     </PageSection>
   );
 };
