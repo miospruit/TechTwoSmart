@@ -58,6 +58,24 @@ timeline: [
     content: "Om de pijnpunten en kansen in kaart te brengen hebben we een customer journey map opgesteld. Door het maken van een customer journey konden we kijken welke stappen de bezoekers nemen en waar zij tegenaan lopen."
   },
   {
+    imageFileName: "about/blank.jpg",
+    header: "2021",
+    subheader: "Concept fase",
+    content: ""
+  },
+  {
+    imageFileName: "about/blank.jpg",
+    header: "2021",
+    subheader: "Create fase",
+    content: ""
+  },
+  {
+    imageFileName: "about/blank.jpg",
+    header: "2021",
+    subheader: "Test fase",
+    content: ""
+  },
+  {
     imageContent: "Be Part\r\nOf Our\r\nStory!"
   }
 ]

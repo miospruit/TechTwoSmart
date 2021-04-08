@@ -64,6 +64,38 @@ De pijnpunten die het meest naar voren kwamen:
     subheader: "SWOT Analyse Scheveningen",
     content: "Door het maken van een SWOT analyse konden we een goed inzicht krijgen van de goede en minder goede punten van Scheveningen. Door het maken van een SWOT analyse konden we aan de hand van de sterktes en zwaktes de bedreigingen zien maar ook de kansen van Scheveningen. Zo konden we zien of wij hier iets uit konden halen voor onze concepten. Inzichten:",
     extraInfo: ["Hieruit konden wij halen dat Scheveningen veel last heeft van verschillende concurrenten, zo wisten wij dat wij iets wilde bedenken wat Scheveningen kon onderscheiden van andere badplaatsen.", "Ook bleek dat er door het gebrek aan  fysieke ruimte veel conflicten ontstaan over het gebruik van ruimte op de stranden, hier dienen wij dus rekening mee te houden bij het ontwikkelen van onze concepten."]
-  }
+  },
+  {
+    imageFileName: "portfolio/analyse-thumbnail.jpg",
+    imageFileNameDetail: "portfolio/analyse.jpg",
+    header: "Low Fid",
+    subheader: "low fidelity design",
+    content: "",
+    extraInfo: ["",""]
+  },
+  {
+    imageFileName: "portfolio/analyse-thumbnail.jpg",
+    imageFileNameDetail: "portfolio/analyse.jpg",
+    header: "High Fid",
+    subheader: "high fidelity design",
+    content: "",
+    extraInfo: ["",""]
+  },
+  {
+    imageFileName: "portfolio/analyse-thumbnail.jpg",
+    imageFileNameDetail: "portfolio/analyse.jpg",
+    header: "ProtoType",
+    subheader: "A prototype MVP",
+    content: "Het Prototype is gemaakt met een Lidar sensor die 2d Data aanleverd. Deze data gebruiken we om te herkennen hoeveel mensen er lopen binnen de range van de Lidar sensor. Vervolgens versturen we deze data naar een website waar er op de kaart wordt aangegeven hoe druk het is in het gebied van de Lidar sensor. Het Prototype maakt gebruik van een verbinding doormiddel van socket.io. Hiermee kunnen we live de data doorsturen naar de front-end react app. Deze React app maakt gebruik van Leaflet om een kaart weer te geven waarom de drukte te zien is.",
+    extraInfo: ["",""]
+  },
+  {
+    imageFileName: "portfolio/aanbeveling-thumbnail.png",
+    imageFileNameDetail: "portfolio/aanbeveling.png",
+    header: "Aanbevelingen",
+    subheader: "Aanvebevlingen voor de toekomst",
+    content: "Een van onze aanbevelingen maakt gebruik van de beschikbare data vanaf de sensoren. Deze data zou kunnen worden gebruikt om weer te geven wat een rustige route is om zo de drukte te verspreiden en de doorstroom te verbeteren.",
+    extraInfo: []
+  },
 ]
 ---
