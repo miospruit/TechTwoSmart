@@ -66,6 +66,18 @@ timeline: [
   {
     imageFileName: "about/blank.jpg",
     header: "2021",
+    subheader: "Brainstormen",
+    content: "Door te brainstormen hebben wij het concept aangescherpt en keuzes gemaakt over het doel van ons concept."
+  },
+  {
+    imageFileName: "about/blank.jpg",
+    header: "2021",
+    subheader: "COCD Box",
+    content: "Met de COCD Box hebben wij een uiteindelijk concept gekozen."
+  },
+  {
+    imageFileName: "about/blank.jpg",
+    header: "2021",
     subheader: "Create fase",
     content: ""
   },
@@ -92,6 +104,12 @@ timeline: [
     header: "2021",
     subheader: "Test fase",
     content: ""
+  },
+  {
+    imageFileName: "about/blank.jpg",
+    header: "2021",
+    subheader: "A/B Testen",
+    content: "Doormiddel van A/B testen hebben we de bruikbaarheid van het interface getest met de doelgroep."
   },
   {
     imageContent: "Be Part\r\nOf Our\r\nStory!"
