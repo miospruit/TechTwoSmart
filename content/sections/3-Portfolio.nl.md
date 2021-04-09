@@ -66,16 +66,16 @@ De pijnpunten die het meest naar voren kwamen:
     extraInfo: ["Hieruit konden wij halen dat Scheveningen veel last heeft van verschillende concurrenten, zo wisten wij dat wij iets wilde bedenken wat Scheveningen kon onderscheiden van andere badplaatsen.", "Ook bleek dat er door het gebrek aan  fysieke ruimte veel conflicten ontstaan over het gebruik van ruimte op de stranden, hier dienen wij dus rekening mee te houden bij het ontwikkelen van onze concepten."]
   },
   {
-    imageFileName: "portfolio/analyse-thumbnail.jpg",
-    imageFileNameDetail: "portfolio/analyse.jpg",
+    imageFileName: "portfolio/low-fid-thumbnail.png",
+    imageFileNameDetail: "portfolio/low-fid.png",
     header: "Low Fid",
     subheader: "low fidelity design",
     content: "",
     extraInfo: ["",""]
   },
   {
-    imageFileName: "portfolio/analyse-thumbnail.jpg",
-    imageFileNameDetail: "portfolio/analyse.jpg",
+    imageFileName: "portfolio/high-fid-thumbnail.png",
+    imageFileNameDetail: "portfolio/high-fid.png",
     header: "High Fid",
     subheader: "high fidelity design",
     content: "",
