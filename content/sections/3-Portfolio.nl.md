@@ -97,5 +97,17 @@ De pijnpunten die het meest naar voren kwamen:
     content: "Een van onze aanbevelingen maakt gebruik van de beschikbare data vanaf de sensoren. Deze data zou kunnen worden gebruikt om weer te geven wat een rustige route is om zo de drukte te verspreiden en de doorstroom te verbeteren.",
     extraInfo: []
   },
+    {
+    imageFileName: "portfolio/sensoren.png",
+    imageFileNameDetail: "portfolio/sensoren.png",
+    header: "Financieel",
+    subheader: "Materiaal kosten lidar projects",
+    content: "We hebben globaal de kosten berekent om de lidar installatie neer te zetten op de boulevard van scheveningen. De sensoren kunnen in lantaarnpalen worden geplaats. De installatie zal een totaal gebied van 2KM over de boulevard dekken. We hebben gekozen voor de 3D Lidar Sensor RS-LiDAR-16. Deze hebben een bereik van 300 meter en kosten € 2.860,71 per stuk. We zullen hiervan minimaal 7 moeten plaatsen om 2KM te kunnen dekken. De kosten van de server bedragen... ",
+    extraInfo: ["totale kosten: €20.024.97 ","https://nl.aliexpress.com/item/32942145445.html", "Dit zijn globaal de materiaalkosten. Installatie kosten kunnen bij serieuse intresse verder worden onderzocht."]
+  },
+
+
+
+
 ]
 ---
